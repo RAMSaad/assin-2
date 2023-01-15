@@ -1,0 +1,121 @@
+.container{
+background-color: rgba(255, 144, 14, 0.1);
+
+width: 1500px;
+height: 1200px;
+left: 0px;
+top: 0px;
+
+}
+
+
+.container nav{
+display: grid;
+grid-template-columns: 60% 40%;
+
+
+
+}
+
+.con{
+padding-left: 50px;
+}
+.con2 {
+display: flex;
+justify-content: space-around;
+list-style: none;
+
+}
+
+.con-dis{
+   
+    padding-top: 50px;
+    font-family: 'Work Sans';
+    
+    line-height: 35px;
+    text-align: center;
+    
+}
+.pri-button{
+    background-color: rgb(245, 154, 51);
+    color: white;
+    padding: 10px 25px;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.banner{
+/* height: fit-content;
+width: ; */
+top: 500px;
+left: 50px;
+bottom: 15px;
+/* padding: 30px 50px 50px 50px; */
+position: absolute;
+
+}
+
+/* main suru */
+.jampa{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.jampa{
+padding: 100px 50px 150px 50px;
+
+
+}
+.team{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+   padding-left: 100px;
+
+}
+.tima{
+padding-left: 20px;
+font-size: 30px;
+
+}
+
+.vab{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-items: center;
+border-left: 50px;
+height: 1000px;
+width: 1200px;
+position: absolute;
+}
+
+.vab-bam{
+padding-left: 10px;
+justify-items:center;
+
+}
+
+.arci{
+   width: 500px;
+ 
+}
+.vab-body{
+background-color: rgba(255, 163, 163, 0.47);
+padding: 2px 5px 2px 5px;
+border-radius: 5px;
+box-shadow: 5px 5px;
+
+}
+.vabaru{
+
+}
+
+.vab-ses{
+   
+}
+
+
